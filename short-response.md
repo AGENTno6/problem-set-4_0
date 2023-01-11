@@ -6,12 +6,11 @@ Answer short response questions directly in this markdown file. Answer questions
 >
 
 **2. How do JavaScript objects encapsulate state? How do they encapsulate behavior?**
-> JavaScript objects encapsulates state by allowing access to state only through certain getter and setter methods.  
+> JavaScript objects encapsulates state through properties. The objects encapsulate behavior through methods which are predefined functions used to manipulate state.  
 
 **3. What are factory functions and why are they useful?**
 > Factory functions are functions that returns objects with the same structure, comprised of a particular set of methods and properties.  
-> Factory functions are a useful tool because essentially, they're a helper function that simplifies code and commands; they make it 
-> easier to create multiple objects with the same properties easily and this results in dry code, or lack of repetition. 
+> Factory functions are a useful tool because essentially, they're a helper function that simplifies code and commands; they make it easier to create multiple objects with the same properties easily and this results in dry code, or lack of repetition. 
 
 **4. Write a code snippet in which you create a Person factory function with at least two data properties. Then, in that same code snippet, use your factory function to create a _Person_ object.**
 
